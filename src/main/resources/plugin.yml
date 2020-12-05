@@ -1,0 +1,12 @@
+name: Schemy
+version: ${project.version}
+main: me.kennedysmithjava.schemy.Schemy
+api-version: 1.16
+authors: [ KennedySmithJava ]
+description: A lightweight plugin for editing prexisting schematic files!
+website: https://github.com/KennedySmithJava
+depend: [ WorldEdit ]
+commands:
+  schemy:
+    description: Base command for Schemy
+    permission: "schemy.use"
